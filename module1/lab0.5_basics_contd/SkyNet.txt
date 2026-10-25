@@ -1,0 +1,3 @@
+Spotter = John Walker
+Teammates = Alex Williams, Bacchus Gudder, Brent Johnson, john Walker, Ronnie Walker, Ronnie Baker, Wilber Kennedy, Dr. T. Hasan Johnson
+Meeting Times = 
