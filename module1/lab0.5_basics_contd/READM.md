@@ -9,6 +9,6 @@ I used the EC2 instance public ip address to connect to the webpage via http://"
 
 | Item    | Requirement                                       | Screenshot                  | Done?    |
 |---------|---------------------------------------------------|-----------------------------|----------|
-| BAM_1.1 | Local SSH client; `whoami` + `date` visible       | `screenshots/BAM_1.1.jpg`   | Yes / No |
-| BAM_1.2 | Custom page: thank-you line, dollar line, picture | `screenshots/BAM_1.2.jpg`   | Yes / No |
-| BAM_1.3 | Local SSH; `user_data` script displayed with `cat` | `screenshots/BAM_1.3.jpg`   | Yes / No |
+| BAM_1.1 | Local SSH client; `whoami` + `date` visible       | [screenshots/BAM_1.1.jpg](screenshots\BAM_1.1.jpg)   | Yes |
+| BAM_1.2 | Custom page: thank-you line, dollar line, picture | [screenshots/BAM_1.2.jpg](screenshots\BAM_1.2.jpg)   | Yes |
+| BAM_1.3 | Local SSH; `user_data` script displayed with `cat` | [screenshots/BAM_1.3.jpg](screenshots\BAM_1.3.jpg)   | Yes |

@@ -1,3 +1,3 @@
-Spotter = John Walker
+Spotter = John Walker and Bacchus
 Teammates = Alex Williams, Bacchus Gudder, Brent Johnson, john Walker, Ronnie Walker, Ronnie Baker, Wilber Kennedy, Dr. T. Hasan Johnson
-Meeting Times = Saturday @
+Meeting Times = Saturday after Saturday's class and on Sundays. We haven't set a definite time yet
