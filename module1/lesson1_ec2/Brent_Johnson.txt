@@ -1,0 +1,6 @@
+1. Brent noticed the: whoami && TZ='America/New_York' date && ec2-metadata -i && uptime -s , he plugged it in to ChatGPT to combine the commands and speed up the workflow.
+2. Brent convinced encourage that we make the EC2 from scratch as it was just as fast as using the template. However, I think we do run the risk of human error and missing
+a step, so I went back to using the template.
+3. Brent also helped me noticed that update command: /opt/balerica-bank/venv/bin/python3 -m pip install --upgrade pip, is baked into the script as well.
+I originally thought that command was a "class chat exclusive" have to pay more attention to details. 
+4. 

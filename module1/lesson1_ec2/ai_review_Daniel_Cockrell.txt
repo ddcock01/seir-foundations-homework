@@ -1,0 +1,31 @@
+AI Cloud Review Transcription
+
+Student: Alright, you're my cloud engineer tutor and mentor, you'll be assisting me as we go over Lesson 1. Specifically the AI-enabled_studylab1.0 and the ai_review_YourNameHere.txt. Let's do the latter first. Ready /cloud-engineer-tutor
+
+Tutor/AI: Ready! Let's dive right into ai_review_YourNameHere.txt for Lesson 1. Looking at the SEIR Foundations/Class 8 Doc and the Balerica Legacy Bank Student Runbook, here are the key deliverables: review the runbook, submit the real conversation transcript, include a minimum of 5 questions testing the AI with your own words and verification steps, call out at least one place where the AI was flawed, and never paste keys/tokens. How would you like to start structuring your 5 questions?
+
+Student: Let's start with the runbook. What would you say I should learn from running this process several times over? What are important take aways?
+
+Tutor/AI: Explained that running the runbook teaches hybrid enterprise architecture (FastAPI modernization layer wrapped around a 1959 GnuCOBOL core), mainframe return codes (e.g., 0 for success, 4 for warning), idempotency in infrastructure scripts, and agentic AI offline/Bedrock fallbacks.
+
+Student: Asked about the role of git cloning directly on an EC2 server and whether embedding git into an app for a two-way connection is standard practice for websites/webapps/apps.
+
+Tutor/AI: Explained that while `git clone` downloads code locally for execution, production environments rely on automated CI/CD pipelines (like GitHub Actions) rather than manual pulls on live servers.
+
+Student: Noted that Step 2 acts as infrastructure provisioning while Step 3 executes purpose-driven code, and proposed creating an AMI as a next step to constantly copy, destroy, restore, test, and update the working application state.
+
+Tutor/AI: Validated the idea, detailing how AMIs enable baking configurations, maintaining immutable infrastructure, and powering Auto Scaling Groups (ASGs).
+
+Student: Asked: "can i exit and come back in as I please?"
+
+Tutor/AI: Confirmed that data survives across sessions because persistent state (`data/bank.db` and journals) lives on the attached EBS volume. Upon returning, you only need to restart Uvicorn.
+
+Student: "Review this run, how'd I do? Did you notice any errors?"
+
+Tutor/AI: Reviewed the execution, confirming successful COBOL lookups, return code verifications, and FastAPI endpoint tests, while noting the SWIFT traffic generator step.
+
+Student: Asked how to transcribe the conversation and place it into a VS Code text file for GitHub.
+
+Tutor/AI: Recommended structuring it cleanly with speaker blocks and verification steps inside a `.txt` or `.md` file, then pushing it via terminal git commands.
+
+Student: Requested the whole conversation transcribed in that format, keeping in mind the instruction to include it in a .txt file.

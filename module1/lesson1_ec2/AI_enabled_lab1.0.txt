@@ -1,0 +1,12 @@
+Databases
+When I first came in contact with databases, I thought they were fancy spreadsheets. Actually, they're data storage methods for applications. However,
+databases, become more than just for storing data once you begin to understand that you can also manage, order, and retrieve data from applications in
+useful ways. Databases come in 2 different flavors; Relational/Structured Query Language (SQL) or non-relational/non-SQL. Relational Databases have your
+traditional spreadsheet set up; a table with columns and rows. Relational databases strictly adhere to ADCID (Atomicity, Consistency, Isolation, Durability)
+Schema-less, non-relational, non-SQL databases store enformation in different formats that include; key value pairs, JSON documents, or graph nodes.
+Non-Relational databases are more flexible or have semi-structured or unstructured data.
+
+I asked Google Gemini "What's a COBOL Program". 
+Apparently COBOL stands for Common Business-Oriented Language, and is one of the oldest programming languages still used today.
+The language was created back in 1959 for busines, finance, and administrative systems, like banking. It also mentioned key characterestics
+which included: English-Like Syntax, Fixed-Width Records, Batch Processing & Ledger Lookups.
