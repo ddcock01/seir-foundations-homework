@@ -32,3 +32,12 @@ The origins of API began in the 1960s and 19702 before the modern internet. Mode
 and microservices. In a way, they're the connective agent of the modern digital economy network made up of tens of millions of public and private APIs across the globe. Most of the internet our 
 decoupled systems made up of mobile apps, payment gateways, cloud data bases, third-party auth providers etc. that are integrated via APIs regardless of how each system differs in their respective
 internal implementation. REST (Representational State Transfer) APIs, is the industy standard that are simple, scalable, stateless, and high performing. 
+
+Intersection of COBOL, SWIFT, APIs & Databases
+The front in would be where the clients, users, employees, etc. interact with the software by sending request to the API through web/mobile applications utilizing HTTP. The API (gateway) acts as a reverse 
+proxy, middleware, microservice layer intercepts and recieves the request from the public internet and begins serving the request by communicating with the backend. The backend is where the 
+vulnuerable parts of the infrastructure reside such as legacy programs or hardware like COBOL and the database. Clients themselves, never have the opportunity to directly interact with the backend
+because the API acts as a security guard and delivers the message on the clients behalf. The API will get a message like GET or POST command in the deliver it to COBOL and/or the Database. COBOL handles
+the interest calculations, end-of-day ledger updates, etc., the database records the overall interaction in an SQL and ACID-compliant format for querying the transaction via another API interaction/request.
+If the transaction is between bank accounts, SWIFT will provide a private and secure path directly to the the backend of another banking institution's program. The recieving institution's API gateway
+will recieve the messaging and communicate it with its own database and/or COBOL for the client to now have access to. 
