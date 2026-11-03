@@ -6,7 +6,29 @@ traditional spreadsheet set up; a table with columns and rows. Relational databa
 Schema-less, non-relational, non-SQL databases store enformation in different formats that include; key value pairs, JSON documents, or graph nodes.
 Non-Relational databases are more flexible or have semi-structured or unstructured data.
 
-I asked Google Gemini "What's a COBOL Program". 
+COBOL Program
 Apparently COBOL stands for Common Business-Oriented Language, and is one of the oldest programming languages still used today.
 The language was created back in 1959 for busines, finance, and administrative systems, like banking. It also mentioned key characterestics
-which included: English-Like Syntax, Fixed-Width Records, Batch Processing & Ledger Lookups.
+which included: English-Like Syntax, Fixed-Width Records, Batch Processing & Ledger Lookups. To present day, many banking systems, insurange
+companies, government agencies, etc still use COBOL because of how integral the language has been in legacy, foundational systems. It's
+so uqiquittous and prevalent when it comes to banking that 95% of all daily ATM swipes and financial card transactions interact with
+a COBOL background according to Gemini AI. COBOL handles trillions of dollars worth of transactions daily and the systems built COBOL require
+maintenence from engineers that require anywhere from $150-300 hourly rate. The efforts to replace CODOL with a more modernized language may take
+up to a decade and millions if not billions of dollors. 
+
+SWIFT: the financial payment messaging Network
+SWIFT founded in 1973 in Brussels, Belgium. SWIFT stands for the Society of Worldwide Interbank Financial Telecommunication. SWIFT itself is not a bank but seems to be a
+digital messaging system that securely communicates financial transactions, trade settlements, and treasury confirmations across an international network of banks. Just like COBOL programing,
+SWIFT seems to also be integral to our modern banking systems as it was created in response to the collapse of the Bretton Woods system and the Nixon shock as
+an alternative to relying on a single private U.S. bank's messaging network or manual Telex system according to SWIFT - Wikipedia. There are some 
+compeititors that exist such as CIPS (Cross-Border Interbank Payment System), SPFS, BRICS Pay. Replacing SWIFT as of now if practically impossible due to the 
+sear size of the network encompassing more than 11,000 institutions across the globe. This infrastructure would take tens of billions of dollars to begin restructuring
+as well as the renegotiation of global policies. There are updates occuring with the technology, such as the generational migration from legacy FIN (MT) message formats 
+to modern XML - based ISO 20022 (MX) standard. This transition is happening now and though the messaging technology coexist, soon the full adoption of modern XML ISO 20022  will
+be required by all institutions within the SWIFT network and we'll no longer use the legacy messaging of FIN MT. I wonder, how Block Chain technology relates to SWIFT and its messaging systems.
+
+APIs 
+The origins of API began in the 1960s and 19702 before the modern internet. Modern API came about around 2000, introduced by Roy Fielding. Modern APIs are responsible for powering the web applications 
+and microservices. In a way, they're the connective agent of the modern digital economy network made up of tens of millions of public and private APIs across the globe. Most of the internet our 
+decoupled systems made up of mobile apps, payment gateways, cloud data bases, third-party auth providers etc. that are integrated via APIs regardless of how each system differs in their respective
+internal implementation. REST (Representational State Transfer) APIs, is the industy standard that are simple, scalable, stateless, and high performing. 

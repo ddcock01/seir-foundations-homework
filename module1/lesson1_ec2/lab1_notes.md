@@ -31,7 +31,8 @@ Run 4
 This time no issues, accept from the slowing up of my computer, probably do to the need for updates. I did notice the following command: git clone https://github.com/BalericaAI/SEIR-Foundations.git. This is likely what we'd use to clone our homework repo to the EC2 for a screenshot. I did happen to forget to take the screenshot at the beginning and took it at the end of the runboook instead. I think it workout, gives you a different view point of the progression through the runbook.
 
 Run 5
-Got in, got out. Another rep.
+Got in, got out. Another rep. Took the screenshot in the beginning of the runbook and not at the end. That was a mistake that I've pretty much thought was standard but realized I was doing it
+all wrong after the fact. I did make some mistakes and did it the right way; taking the screenshot at the conclusion of the runbook.
 
 Run 6
 Communicating and jumping back and forth between the AI sort of distracted me from running the script. However, utilizing it to review the runbook in real time helped me better understand what was going on. It also help me anticipate what is to happen next.
@@ -41,3 +42,14 @@ Finally asked AI why my ctrl + V for pasting into the terminal was doubling my p
 
 
 COBOL Practice
+I technically used Run 8 Instance ID i-027841605f75588bd, I'll list the [screenshot](screenshots/lab1_run8.jpg.png)
+Code	Meaning
+0	success — account found / payment POSTED Command = ./cobol/bin/payment_post TXN-DC-0001 100001 555.55 USD INV-1001
+4	warning — account not found Command = ./cobol/bin/payment_post TXN-DC-0001 555.55 USD INV-1001
+8	business rejection — not ACTIVE, zero amount, funds Command = ./cobol/bin/payment_post TXN-DC-0001 100001 0.00 USD INV-2026
+12	environment failure — missing file, malformed args Command = /opt/balerica-bank/cobol/bin/account_lookup 100001
+Lines from the journal:
+TXN-DC-0001         555.55000000000000INVREJECTED
+TXN-DC-0001         100001000000055555USDPOSTED  INV-1001
+TXN-DC-0001         100001000000000000USDREJECTEDINV-2026
+TXN-DC-0002         100001000000055555USDPOSTED  INV-2027

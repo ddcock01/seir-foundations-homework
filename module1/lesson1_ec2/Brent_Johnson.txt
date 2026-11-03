@@ -3,4 +3,5 @@
 a step, so I went back to using the template.
 3. Brent also helped me noticed that update command: /opt/balerica-bank/venv/bin/python3 -m pip install --upgrade pip, is baked into the script as well.
 I originally thought that command was a "class chat exclusive" have to pay more attention to details. 
-4. 
+4. Brent went back through the instructions and found out that the screenshots should've been taken after completing the runbook, which
+makes total sense in hindsight because it confirms you've completed the bulk of the work. That's going in my mistake section for sure.
